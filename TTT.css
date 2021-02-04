@@ -1,0 +1,50 @@
+input {
+    border: solid skyblue 5px;
+    margin: auto;
+    font-size: 40px;
+}
+
+#main {
+    text-align: center;
+    margin-top: 6%;
+}
+
+h1 {
+    color: aqua;
+    text-align: center;
+    font-size: 80px;
+}
+
+#reset {
+    position: absolute;
+    left: 48%;
+    height: 40px;
+    width: 90px;
+    border: rgb(255, 252, 252) solid 3px;
+    background-color: rgb(153, 153, 153);
+    font-family: fantasy;
+    margin-top: 3%;
+}
+
+input[type=button]:disabled {
+    opacity: 1;
+}
+
+#player1,
+#player2 {
+    color: chartreuse;
+    margin-left: 5%;
+    font-size: larger;
+    margin-bottom: 2%;
+}
+
+#scorereset {
+    position: absolute;
+    left: 48%;
+    height: 40px;
+    width: 90px;
+    border: rgb(255, 252, 252) solid 3px;
+    background-color: rgb(153, 153, 153);
+    font-family: fantasy;
+    margin-top: 7%;
+}
