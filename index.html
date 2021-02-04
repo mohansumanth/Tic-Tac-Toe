@@ -37,14 +37,14 @@
                     btn4 == "X" && btn5 == "X" && btn6 == "X" || btn7 == "X" && btn8 == "X" && btn9 == "X" || btn2 == "X" && btn5 == "X" && btn8 == "X" || btn3 == "X" && btn5 == "X" && btn7 == "X") {
                     alert("player 1 win");
                     //score1 = score1 + 1;
-                    document.getElementById("player1").innerHTML = ("Player 1 : " + ++score1);
+                    document.getElementById("player1").innerHTML = ("Player 1(X) : " + ++score1);
                     reset();
                     work();
                     count = 1;
                 } else if (btn1 == "O" && btn2 == "O" && btn3 == "O" || btn1 == "O" && btn4 == "O" && btn7 == "O" || btn3 == "O" && btn6 == "O" && btn9 == "O" || btn1 == "O" && btn5 == "O" && btn9 == "O" ||
                     btn4 == "O" && btn5 == "O" && btn6 == "O" || btn7 == "O" && btn8 == "O" && btn9 == "O" || btn2 == "O" && btn5 == "O" && btn8 == "O" || btn3 == "O" && btn5 == "O" && btn7 == "O") {
                     alert("player 2 wins");
-                    document.getElementById("player2").innerHTML = ("Player 2 : " + ++score2);
+                    document.getElementById("player2").innerHTML = ("Player 2(O) : " + ++score2);
                     reset();
                     work()
                     count = 1;
