@@ -19,15 +19,12 @@ h1 {
 }
 
 #reset {
-    /* position: absolute;
-    left: 48%; */
-    text-align: center;
     width: 90px;
     border: rgb(255, 252, 252) solid 3px;
     background-color: rgb(153, 153, 153);
     font-family: fantasy;
-    margin-top: 3%;
-    margin-left: 40%;
+    margin-top: 2%;
+    margin-left: 47%;
 }
 
 input[type=button]:disabled {
@@ -43,13 +40,9 @@ input[type=button]:disabled {
 }
 
 #scorereset {
-    /* position: absolute;
-    left: 48%; */
-    /* height: 30px; */
-    width: 90px;
-    border: rgb(255, 252, 252) solid 3px;
+    border: rgb(228, 165, 165) solid 3px;
     background-color: rgb(153, 153, 153);
     font-family: fantasy;
-    margin-top: 7%;
-    margin-left: 40%;
+    margin-top: 3%;
+    margin-left: 47%;
 }
